@@ -1,0 +1,16 @@
+***split the values into singlr value***
+
+n1=[1234,7896,8976,4536]
+
+s=""
+for i in n1:
+
+    s+=str(i)
+
+res=[]
+
+for i in s:
+ 
+   res.append(int(i))
+
+print(res)    
