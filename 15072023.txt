@@ -1,0 +1,16 @@
+ ***print a table***
+
+n=int(input())
+
+for i in range(1,11):
+   
+ print(n,"*",i, "=", n*i)
+
+*****by using slice to print the letters***
+n="python programm"
+
+c="aptitude"
+
+print(n[4:6])
+
+print(c[5:8:2])
